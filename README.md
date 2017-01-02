@@ -11,3 +11,6 @@ the Quantity types implemented in [Unitful.jl](https://github.com/ajkeller34/Uni
 
 This package currently supports [QuadGK.jl](https://github.com/JuliaMath/QuadGK.jl),
 which was originally in Julia Base. We do not support QuadGK as implemented in Julia 0.5.
+To use this package with Julia 0.5, you need to install the QuadGK package and
+qualify all invocations of QuadGK functions with the module name (e.g.
+`import QuadGK; QuadGK.quadgk(...)`).
