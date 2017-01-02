@@ -14,3 +14,5 @@ which was originally in Julia Base. We do not support QuadGK as implemented in J
 To use this package with Julia 0.5, you need to install the QuadGK package and
 qualify all invocations of QuadGK functions with the module name (e.g.
 `import QuadGK; QuadGK.quadgk(...)`).
+
+PRs for other integration packages are welcome.
