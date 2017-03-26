@@ -7,9 +7,9 @@ import QuadGK
 
 function QuadGK.quadgk(f, a::Quantity, b::Quantity, c::Quantity...; kws...)
     d = dimension(a)
-    d != dimension(b) && throw(DimensionError())
+    d != dimension(b) && throw(DimensionError(a,b))
     for x in c
-        d != dimension(x) && throw(DimensionError())
+        d != dimension(x) && throw(DimensionError(a,x))
     end
     QuadGK.quadgk(f, promote(a,b,c...)...; kws...)
 end
