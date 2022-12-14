@@ -6,7 +6,7 @@
 This package enables integration of physical quantity-valued functions, using
 the Quantity types implemented in [Unitful.jl](https://github.com/ajkeller34/Unitful.jl).
 
-This package currently supports [QuadGK.jl](https://github.com/JuliaMath/QuadGK.jl).
+This package currently supports [QuadGK.jl](https://github.com/JuliaMath/QuadGK.jl) v2.6 or newer.
 
 
 
