@@ -1,6 +1,6 @@
 The UnitfulIntegration.jl package was authored by Andrew Keller and is licensed under the MIT "Expat" License:
 
-> Copyright (c) 2017, California Institute of Technology. All rights reserved.
+> Copyright (c) 2017-2022, California Institute of Technology. All rights reserved.
 > 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to deal
