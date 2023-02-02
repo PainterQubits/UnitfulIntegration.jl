@@ -4,7 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/ajkeller34/UnitfulIntegration.jl/badge.svg?branch=master&service=github)](https://coveralls.io/github/ajkeller34/UnitfulIntegration.jl?branch=master)
 [![codecov.io](http://codecov.io/github/ajkeller34/UnitfulIntegration.jl/coverage.svg?branch=master)](http://codecov.io/github/ajkeller34/UnitfulIntegration.jl?branch=master)
 
-**This package is deprecated. It is not compatible with [Unitful.jl](https://github.com/ajkeller34/Unitful.jl) versions 1.0 and above. [QuadGK.jl](https://github.com/JuliaMath/QuadGK.jl) supports Unitful quantities out-of-the-box since version 2.1.0**
+**This package is deprecated. It is not compatible with [Unitful.jl](https://github.com/PainterQubits/Unitful.jl) versions 1.0 and above. [QuadGK.jl](https://github.com/JuliaMath/QuadGK.jl) supports Unitful quantities out of the box since version 2.7.0.**
 
 This package enables integration of physical quantity-valued functions, using
 the Quantity types implemented in [Unitful.jl](https://github.com/ajkeller34/Unitful.jl).
